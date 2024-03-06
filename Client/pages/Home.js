@@ -35,7 +35,7 @@ export default function PermanentDrawerLeft(props) {
                 )
             }
             {isMobile && (
-                <Grid item xs={12} style={{ marginTop: isMobile && 50, marginLeft: isMobile ? 0 : 10 }}>
+                <Grid item xs={12} style={{ marginLeft: isMobile ? 0 : 10 }}>
                     <ChatMessages loginUser={props.userData} />
                 </Grid>
             )}

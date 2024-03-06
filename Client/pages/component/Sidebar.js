@@ -26,6 +26,7 @@ const Sidebar = ({ user }) => {
 
     const handleHome = () => {
         isMobile && setMobileView(false)
+        SetNewChat(false)
     }
 
     const handleNewChat = () => {

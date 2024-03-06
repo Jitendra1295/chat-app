@@ -26,12 +26,15 @@ const ListContainer = styled(Grid)({
     width: '100%', // Set width to 100% to expand to the container's width
 });
 const ListWithScrollbar = styled(Grid)({
-    overflowY: 'auto',
+    overflowY: 'auto', // Set overflowY to auto to show scrollbar when content overflows
     flexGrow: 1,
     backgroundImage: `url('/logo.jpg')`,
     backgroundSize: 'contain',
-    height: '100vh',
+    height: '100%', // Set a fixed height or use 100% to fill parent container
+    maxHeight: '100vh', // Add maxHeight to limit the height and enable scrolling
 });
+
+
 const ChatMessages = ({ loginUser }) => {
     const [messageInput, setMessageInput] = useState('');
     const [chatMessage, setChatMessages] = useState([]);
@@ -180,7 +183,7 @@ const ChatMessages = ({ loginUser }) => {
                     classes={{ primary: styles.customNavbarPrimary, secondary: styles.customNavbarSecondary }}
                 />
             </ListItem>}
-            {user && <ListWithScrollbar style={{ height: '77.9vh', width: isMobile && "100%" }}>
+            {user && <ListWithScrollbar style={{ height: isMobile ? "74vh" : '77.9vh', width: isMobile && "100%" }}>
                 {loading ? (
                     <Spinner
                         size="xl"
