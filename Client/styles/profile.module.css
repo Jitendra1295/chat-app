@@ -1,0 +1,26 @@
+/* profile.module.css */
+.customListItemText {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.customListItemIcon {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.customNavbarPrimary {
+    font-size: 22px;
+    color: white;
+}
+
+.customNavbarSecondary {
+    color: rgb(18, 103, 18);
+    font-weight: 900;
+}
+
+.chatTimeValue {
+    color: aliceblue;
+}

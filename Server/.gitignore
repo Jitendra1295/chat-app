@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Generated files
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Dependency directories
+pnpify/
+
+# next.js
+/.next/
+/out/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Compiled binary addons (for node-gyp or similar)
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
