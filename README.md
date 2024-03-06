@@ -21,7 +21,7 @@ Before running the application, ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-   [ git clone https://github.com/Jitendra1295/chat-app.git](https://github.com/Jitendra1295/chat-app.git)
+   git clone https://github.com/Jitendra1295/chat-app.git
     cd chat-app
     ```
 
@@ -77,6 +77,6 @@ Before running the application, ensure you have the following installed:
 
 ## Contributors
 
-- [Jitendra Patel]([https://github.com/Jitendra1295](https://github.com/Jitendra1295))
+- [Jitendra Patel]([https://github.com/Jitendra1295])
 
 
