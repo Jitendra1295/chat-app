@@ -1,0 +1,14 @@
+/* global.css */
+
+html,
+body {
+    overflow: hidden;
+    background-color: "#071211";
+    /* Hide the main scrollbar */
+}
+
+.customListItemText {
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+}
